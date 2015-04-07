@@ -1,0 +1,17 @@
+{
+  "name": "tinylara/tinyvalidator",
+  "description": "Tiny PHP validator.",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "authors": [
+      {
+          "name": "John Lui",
+          "email": "wenhanlv@gmail.com"
+      }
+  ],
+  "autoload": {
+    "psr-4": {"TinyLara\\TinyValidator\\": ""}
+  }
+}
