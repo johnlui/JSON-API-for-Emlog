@@ -7,7 +7,7 @@ if ( !array_key_exists('token', $_GET) || $_GET['token'] != 'koanfoiuh32789gf782
 }
 
 Route::get('site-info', 'HomeController@siteInfo');
-Route::get('user-info', 'UserController@userInfo');
+Route::get('admin-info', 'UserController@adminInfo');
 Route::get('articles/from/(:num)/to/(:num)', 'ArticleController@fromAToB');
 Route::get('articles/(:num)', 'ArticleController@show');
 

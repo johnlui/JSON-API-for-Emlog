@@ -4,7 +4,7 @@
 */
 class UserController extends BaseController {
 
-  public function userInfo()
+  public function adminInfo()
   {
     $blogURL = Option::where('option_name', 'blogurl')->first()->option_value;
     $response = User::where('role', 'admin')->first(['nickname', 'photo', 'email', 'description']);
