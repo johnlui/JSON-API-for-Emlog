@@ -92,7 +92,7 @@ JSON API for Emlog
 
 ### 4. 第 2 篇文章
 
-####*http://ooxx.com/content/plugins/json_api/tinylara/public/articles/2 *
+####*http://ooxx.com/content/plugins/json_api/tinylara/public/articles/2*
 
 返回值：
 
